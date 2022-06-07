@@ -4,7 +4,7 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <title><%= site.site.name %></title>
+        <title>{{ site.site.name }}}</title>
 
 <!--
 	phpBB style name: prosilver
@@ -26,9 +26,9 @@
                             <a id="logo" class="logo" href="./index.php" title="Board index">
                                 <span class="site_logo"></span>
                             </a>
-                            <h1><%= site.site.name %></h1>
+                            <h1>{{ site.site.name }}</h1>
                             <% if let Some(description) = site.site.description { %>
-                                <p><%= description %></p>
+                                <p>{{ description }}</p>
                             <% } %>
                         </div>
 
